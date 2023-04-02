@@ -1,20 +1,19 @@
 # Proyecto final de analisis y sistemas
 <p align="center">
   <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" />
+Alumno
+José Angel Alba 
+Matrícula
+2022-0398
+Docente
+Prof. Lizandro Ramírez
+Código 
+ISC_010
+Asignatura
+Análisis de Sistemas
+Fecha de Entrega
+10-04-2023
 </p>
-<p align="center">Alumno</p>
-            José Angel Alba 
-<p align="center">Matrícula</p>
-                2022-0398
-<p align="center">Docente</p>
-        Prof. Lizandro Ramírez
- <p align="center">Código</p>
-                ISC_010
-<p align="center">Asignatura</p>
-            Análisis de Sistemas
-<p align="center">Fecha de Entrega</p>
-                10-04-2023
-
 
 
 # Worker y Redis
