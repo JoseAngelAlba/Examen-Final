@@ -3,17 +3,18 @@
   <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" />
 </p>
 <p style="text-align: center;">Alumno</p>
-José Angel Alba 
+            José Angel Alba 
 <p style="text-align: center;">Matrícula</p>
-2022-0398
+                2022-0398
 <p style="text-align: center;">Docente</p>
-Prof. Lizandro Ramírez
+        Prof. Lizandro Ramírez
  <p style="text-align: center;">Código</p>
-ISC_010
+                ISC_010
 <p style="text-align: center;">Asignatura</p>
-Análisis de Sistemas
+            Análisis de Sistemas
 <p style="text-align: center;">Fecha de Entrega</p>
-10-04-2023
+                10-04-2023
+
 
 
 # Worker y Redis
