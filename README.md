@@ -7,7 +7,7 @@
 - Alumno: José Angel Alba
 - Matrícula: 2022-0398
 - Docente: Prof. Lizandro Ramírez
-- Código: ISC_010
+- Código: ISC 010 001
 - Asignatura: Análisis de Sistemas
 - Fecha de Entrega: 10-04-2023
 
