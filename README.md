@@ -65,3 +65,14 @@ El código define varios manejadores de ruta HTTP para diferentes solicitudes.
 
 Por ejemplo, la ruta / simplemente envía una respuesta de Hi. La ruta /values/all obtiene todos los valores almacenados en la base de datos PostgreSQL y los devuelve como una respuesta HTTP. La ruta /values/current obtiene todos los valores actualmente en el almacenamiento Redis y los devuelve como una respuesta HTTP. La ruta /values acepta un índice enviado por un cliente, lo almacena en Redis con un valor temporal "Nothing yet!" y publica un mensaje para que un trabajador lo procese. Luego inserta el índice en la base de datos PostgreSQL y envía una respuesta HTTP de éxito.
 
+# Nginx
+Nginx es una configuración de un servidor en un ambiente Docker que se encarga de redirigir las solicitudes del cliente y del servidor a diferentes puertos en la máquina host.
+
+La primera sección del código define los servidores del cliente y del API como 'upstreams', que son grupos de servidores que pueden ser referenciados en las reglas de proxy.
+
+Luego, se define el servidor que escuchará en el puerto 80 y se configuran tres ubicaciones diferentes:
+
+La ubicación raíz / redirige las solicitudes al servidor del cliente en el puerto 3000 utilizando la regla proxy_pass.
+La ubicación /ws también redirige las solicitudes al servidor del cliente en el puerto 3000, pero incluye configuración adicional para soportar WebSockets.
+
+La ubicación /api redirige las solicitudes al servidor del API en el puerto 5000 utilizando la regla proxy_pass. Además, utiliza la directiva rewrite para eliminar el prefijo /api de la URL antes de pasarla al servidor del API.
