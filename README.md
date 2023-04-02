@@ -4,21 +4,13 @@
   
 
   
-<center>
-<p>
-* Alumno
-    José Angel Alba 
-* Matrícula
-    2022-0398
-* Docente
-    Prof. Lizandro Ramírez
-* Código 
-    ISC_010
-* Asignatura
-    Análisis de Sistemas
-* Fecha de Entrega
-    10-04-2023
-</p><center>
+- Alumno: José Angel Alba
+- Matrícula: 2022-0398
+- Docente: Prof. Lizandro Ramírez
+- Código: ISC_010
+- Asignatura: Análisis de Sistemas
+- Fecha de Entrega: 10-04-2023
+- 
 # Introducción
 En este análisis se aborda el estudio de los diferentes componentes que conforman una aplicación React. Estos componentes utilizan una base de datos Redis y Postgre, API Rest, un cliente web con React, y un servicio Worker para simular cálculos complejos. En el caso de Redis y el servicio Worker, se muestra cómo se realiza un cálculo de Fibonacci y se guarda en Redis. Sin embargo, se sugieren algunas mejoras, como manejar errores, agregar pruebas unitarias, separar responsabilidades, configuración centralizada y mejorar el rendimiento. En cuanto a Express, Redis y Postgre, se tiene un servidor Node.js que utiliza Express para manejar solicitudes HTTP, un cliente PostgreSQL para almacenar valores y un cliente Redis para almacenar valores en proceso de cálculo. La configuración inicial del servidor establece los detalles de conexión en keys.js. El servidor tiene varios manejadores de ruta HTTP para diferentes solicitudes. En el caso de React, se utiliza React Router para mostrar dos páginas diferentes al usuario. La aplicación consiste en un componente funcional llamado App que renderiza el contenido. El componente tiene un estado que contiene tres variables y métodos para llamar a la API del servidor y calcular los valores de Fibonacci. Se sugiere que el código se mejore agregando pruebas unitarias y separando responsabilidades.
 
