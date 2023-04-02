@@ -1,6 +1,7 @@
 # Proyecto final de analisis y sistemas
 <p align="center">
-  <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" />
+  <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" /></p>
+<p align="center">
 Alumno
 José Angel Alba 
 Matrícula
