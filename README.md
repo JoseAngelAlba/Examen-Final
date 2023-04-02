@@ -1,16 +1,18 @@
 # Proyecto final de analisis y sistemas
-
-Alumno
+<p align="center">
+  <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" />
+</p>
+<p style="text-align: center;">Alumno</p>
 José Angel Alba 
-Matrícula
+<p style="text-align: center;">Matrícula</p>
 2022-0398
-Docente
+<p style="text-align: center;">Docente</p>
 Prof. Lizandro Ramírez
-Código 
+ <p style="text-align: center;">Código</p>
 ISC_010
-Asignatura
+<p style="text-align: center;">Asignatura</p>
 Análisis de Sistemas
-Fecha de Entrega
+<p style="text-align: center;">Fecha de Entrega</p>
 10-04-2023
 
 
@@ -44,4 +46,8 @@ El método renderValues recorre el objeto de valores y crea una matriz de elemen
 
 En general, este componente permite al usuario ingresar un nuevo índice de secuencia de Fibonacci, ver una lista de índices calculados previamente y ver los valores calculados para cada índice.
 
+# Express, Redis y Postgre
+La app tiene un servidor Node.js que utiliza Express para manejar solicitudes HTTP. Hay tres componentes principales: un cliente PostgreSQL para almacenar valores, un cliente Redis para almacenar valores que están siendo calculados, y una aplicación Express que maneja solicitudes HTTP y comunica el almacenamiento de datos entre el cliente PostgreSQL y el cliente Redis.
+La configuración inicial del servidor crea instancias del cliente PostgreSQL y el cliente Redis y los configura con los detalles de conexión especificados en keys.js.
+El código define varios manejadores de ruta HTTP para diferentes solicitudes. Por ejemplo, la ruta / simplemente envía una respuesta de Hi. La ruta /values/all obtiene todos los valores almacenados en la base de datos PostgreSQL y los devuelve como una respuesta HTTP. La ruta /values/current obtiene todos los valores actualmente en el almacenamiento Redis y los devuelve como una respuesta HTTP. La ruta /values acepta un índice enviado por un cliente, lo almacena en Redis con un valor temporal "Nothing yet!" y publica un mensaje para que un trabajador lo procese. Luego inserta el índice en la base de datos PostgreSQL y envía una respuesta HTTP de éxito.
 
