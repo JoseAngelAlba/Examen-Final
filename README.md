@@ -2,17 +2,17 @@
 <p align="center">
   <img src="https://github.com/JoseAngelAlba/Examen-Final/blob/main/Imagen1.png" />
 </p>
-<p style="text-align: center;">Alumno</p>
+<p align="center">Alumno</p>
             José Angel Alba 
-<p style="text-align: center;">Matrícula</p>
+<p align="center">Matrícula</p>
                 2022-0398
-<p style="text-align: center;">Docente</p>
+<p align="center">Docente</p>
         Prof. Lizandro Ramírez
- <p style="text-align: center;">Código</p>
+ <p align="center">Código</p>
                 ISC_010
-<p style="text-align: center;">Asignatura</p>
+<p align="center">Asignatura</p>
             Análisis de Sistemas
-<p style="text-align: center;">Fecha de Entrega</p>
+<p align="center">Fecha de Entrega</p>
                 10-04-2023
 
 
