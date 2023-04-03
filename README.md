@@ -69,3 +69,6 @@ El análisis presenta tres componentes diferentes: React, Redis y Postgre. Cada 
 En general, el análisis sugiere varias mejoras para el código presentado en cada uno de los componentes. En el caso de Redis y el servicio Worker, se recomienda manejar errores, agregar pruebas unitarias, separar responsabilidades, centralizar la configuración y mejorar el rendimiento. En el caso de Postgre y Express, se sugiere mejorar la modularidad, agregar pruebas unitarias, mejorar el manejo de errores y mejorar el rendimiento. Finalmente, para React, se recomienda mejorar la modularidad, agregar pruebas unitarias y mejorar la eficiencia en la obtención de información de la secuencia de Fibonacci.
 
 En general, se puede concluir que este análisis presenta una buena descripción de los componentes y sus funcionalidades, y proporciona sugerencias útiles para mejorar el código en cada uno de los componentes. Al seguir estas sugerencias, se podría mejorar significativamente la eficiencia, modularidad y manejo de errores en la aplicación.
+
+Video de Prueba de Funcionamiento.
+[Video Analisis](https://miucateciedu-my.sharepoint.com/:f:/g/personal/20220398_miucateci_edu_do/EqOftEstzRdHlQ-lQuUN1GsBzy7vaaznShnqAXK_WKXBFg?e=cTdyYS)
